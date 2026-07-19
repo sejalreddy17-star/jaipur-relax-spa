@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
-const heroImg = "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=2000&auto=format&fit=crop";
-const stonesImg = "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=800&auto=format&fit=crop";
-const aromaImg = "https://images.unsplash.com/photo-1519824145371-296894a0daa9?q=80&w=800&auto=format&fit=crop";
-const facialImg = "https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=800&auto=format&fit=crop";
+const heroImg = "https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=2000&auto=format&fit=crop";
+const stonesImg = "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop";
+const aromaImg = "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=800&auto=format&fit=crop";
+const facialImg = "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=800&auto=format&fit=crop";
 
 export const Route = createFileRoute("/")({
   component: Landing,
@@ -42,7 +42,7 @@ function Landing() {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="#" className="font-display text-2xl tracking-wide text-gold-gradient">Shreya Spa Agency</a>
+          <a href="#" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Relax Spa</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="#services" className="hover:text-primary transition">Services</a>
             <a href="#sanctuary" className="hover:text-primary transition">Sanctuary</a>
@@ -119,7 +119,7 @@ function Landing() {
           <div>
             <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Our Agency</p>
             <h2 className="font-display text-4xl md:text-5xl font-light leading-tight mb-6">Genuine profiles. Authentic services.</h2>
-            <p className="text-muted-foreground leading-relaxed mb-8">As a trusted spa agency in Jaipur, Shreya Spa guarantees 100% genuine services. We pride ourselves on authentic traditional therapies, complete privacy, and verified therapists to ensure your ultimate relaxation.</p>
+            <p className="text-muted-foreground leading-relaxed mb-8">As a trusted spa agency in Jaipur, Jaipur Relax Spa guarantees 100% genuine services. We pride ourselves on authentic traditional therapies, complete privacy, and verified therapists to ensure your ultimate relaxation.</p>
             <div className="grid grid-cols-2 gap-6 text-sm">
               <div><div className="font-display text-3xl text-gold-gradient mb-1">100%</div><div className="text-muted-foreground">Genuine Profiles</div></div>
               <div><div className="font-display text-3xl text-gold-gradient mb-1">50+</div><div className="text-muted-foreground">Verified Therapists</div></div>
@@ -175,8 +175,8 @@ function Landing() {
         <a href={telegramLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-[#0088cc] hover:bg-[#0088cc]/80 text-white transition mb-6 shadow-[0_0_20px_-5px_#0088cc]" aria-label="Telegram Contact">
           <TelegramIcon className="w-7 h-7" />
         </a>
-        <p className="font-display text-lg text-gold-gradient mb-2">Shreya Spa Agency Jaipur</p>
-        <p>© {new Date().getFullYear()} Shreya Genuine Spa Agency in Jaipur · All bookings by appointment</p>
+        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Relax Spa</p>
+        <p>© {new Date().getFullYear()} Jaipur Relax Spa · All bookings by appointment</p>
       </footer>
     </div>
   );
