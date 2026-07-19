@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jaipurcallgirlsescorts.com/sitemap.xml

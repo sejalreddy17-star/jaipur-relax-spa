@@ -30,33 +30,33 @@
   --color-ring: var(--ring);
   --color-gold: var(--gold);
   --color-gold-soft: var(--gold-soft);
-  --font-display: "Playfair Display", ui-serif, Georgia, serif;
-  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
-  --radius: 0.5rem;
-  --background: oklch(0.20 0.04 200); /* Dark Teal */
-  --foreground: oklch(0.95 0.02 90); /* Soft Cream */
-  --card: oklch(0.25 0.04 200); /* Slightly lighter Teal */
-  --card-foreground: oklch(0.95 0.02 90);
-  --popover: oklch(0.25 0.04 200);
-  --popover-foreground: oklch(0.95 0.02 90);
-  --primary: oklch(0.85 0.1 85); /* Champagne Gold */
-  --primary-foreground: oklch(0.20 0.04 200);
-  --secondary: oklch(0.30 0.05 200);
-  --secondary-foreground: oklch(0.95 0.02 90);
-  --muted: oklch(0.30 0.05 200);
-  --muted-foreground: oklch(0.75 0.04 190); /* Soft cyan-gray */
-  --accent: oklch(0.35 0.06 200);
-  --accent-foreground: oklch(0.95 0.02 90);
-  --destructive: oklch(0.6 0.2 25);
+  --radius: 0.75rem;
+  --background: oklch(0.13 0.04 330);
+  --foreground: oklch(0.96 0.01 330);
+  --card: oklch(0.18 0.05 330);
+  --card-foreground: oklch(0.96 0.01 330);
+  --popover: oklch(0.18 0.05 330);
+  --popover-foreground: oklch(0.96 0.01 330);
+  --primary: oklch(0.68 0.22 350);
+  --primary-foreground: oklch(0.98 0.01 330);
+  --secondary: oklch(0.24 0.06 330);
+  --secondary-foreground: oklch(0.96 0.01 330);
+  --muted: oklch(0.24 0.05 330);
+  --muted-foreground: oklch(0.68 0.04 330);
+  --accent: oklch(0.30 0.08 340);
+  --accent-foreground: oklch(0.96 0.01 330);
+  --destructive: oklch(0.55 0.22 25);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.35 0.04 200 / 50%);
-  --input: oklch(0.35 0.04 200);
-  --ring: oklch(0.85 0.1 85);
-  --gold: oklch(0.88 0.12 85);
-  --gold-soft: oklch(0.78 0.10 80);
+  --border: oklch(0.32 0.06 340 / 45%);
+  --input: oklch(0.28 0.05 330);
+  --ring: oklch(0.68 0.22 350);
+  --gold: oklch(0.75 0.18 355);
+  --gold-soft: oklch(0.62 0.16 345);
 }
 
 @layer base {
@@ -71,12 +71,12 @@
 }
 
 @utility text-gold-gradient {
-  background: linear-gradient(135deg, oklch(0.92 0.08 90), oklch(0.75 0.12 75));
+  background: linear-gradient(135deg, oklch(0.82 0.16 355), oklch(0.68 0.22 350), oklch(0.58 0.18 320));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 @utility bg-radial-glow {
-  background-image: radial-gradient(ellipse at top, oklch(0.35 0.08 200 / 0.4), transparent 70%);
+  background-image: radial-gradient(ellipse at top, oklch(0.35 0.14 340 / 0.45), transparent 70%);
 }
