@@ -88,6 +88,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:description", content: "A cinematic dark spa experience. Signature massages, rituals, and facials in an intimate candlelit sanctuary in Jaipur." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a236b3e0-2971-46db-b3a2-dfcc64c96683/id-preview-80dceee9--d4a449d0-5011-49b1-a8f8-55495843e1f6.lovable.app-1784197977503.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a236b3e0-2971-46db-b3a2-dfcc64c96683/id-preview-80dceee9--d4a449d0-5011-49b1-a8f8-55495843e1f6.lovable.app-1784197977503.png" },
+      { name: "google-site-verification", content: "J7chktijnx4n5ic73s3rwVtmBKDvu2ZXjsRJQkFfOmo" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
