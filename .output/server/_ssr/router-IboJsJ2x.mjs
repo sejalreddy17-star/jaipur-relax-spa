@@ -1,11 +1,11 @@
 import { n as __toESM } from "../_runtime.mjs";
-import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
+import { n as require_react, r as require_jsx_runtime, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CNOs0vkD.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-IboJsJ2x.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-PC5USP6W.css";
+var styles_default = "/assets/styles-Dd2jl0JZ.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -92,7 +92,7 @@ function ErrorComponent({ error, reset }) {
 		})
 	});
 }
-var Route$1 = createRootRouteWithContext()({
+var Route$3 = createRootRouteWithContext()({
 	head: () => ({
 		meta: [
 			{ charSet: "utf-8" },
@@ -100,10 +100,10 @@ var Route$1 = createRootRouteWithContext()({
 				name: "viewport",
 				content: "width=device-width, initial-scale=1"
 			},
-			{ title: "Jaipur Relax Spa" },
+			{ title: "Jaipur Relax Spa | Best Spa Services in Jaipur" },
 			{
 				name: "description",
-				content: "A cinematic dark spa experience. Signature massages, rituals, and facials in an intimate candlelit sanctuary in Jaipur."
+				content: "Experience the best spa services in Jaipur at Jaipur Relax Spa. We offer authentic full body massages, signature rituals, and premium relaxation services. Book your session today."
 			},
 			{
 				name: "author",
@@ -111,11 +111,11 @@ var Route$1 = createRootRouteWithContext()({
 			},
 			{
 				property: "og:title",
-				content: "Jaipur Relax Spa"
+				content: "Jaipur Relax Spa | Best Spa Services in Jaipur"
 			},
 			{
 				property: "og:description",
-				content: "A cinematic dark spa experience. Signature massages, rituals, and facials in an intimate candlelit sanctuary in Jaipur."
+				content: "Experience the best spa services in Jaipur at Jaipur Relax Spa. We offer authentic full body massages, signature rituals, and premium relaxation services. Book your session today."
 			},
 			{
 				property: "og:type",
@@ -127,11 +127,11 @@ var Route$1 = createRootRouteWithContext()({
 			},
 			{
 				name: "twitter:title",
-				content: "Jaipur Relax Spa"
+				content: "Jaipur Relax Spa | Best Spa Services in Jaipur"
 			},
 			{
 				name: "twitter:description",
-				content: "A cinematic dark spa experience. Signature massages, rituals, and facials in an intimate candlelit sanctuary in Jaipur."
+				content: "Experience the best spa services in Jaipur at Jaipur Relax Spa. We offer authentic full body massages, signature rituals, and premium relaxation services. Book your session today."
 			},
 			{
 				property: "og:image",
@@ -174,6 +174,39 @@ var Route$1 = createRootRouteWithContext()({
 			src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3623171219955382",
 			async: true,
 			crossOrigin: "anonymous"
+		}, {
+			type: "application/ld+json",
+			children: JSON.stringify({
+				"@context": "https://schema.org",
+				"@type": "HealthAndBeautyBusiness",
+				"name": "Jaipur Relax Spa",
+				"image": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a236b3e0-2971-46db-b3a2-dfcc64c96683/id-preview-80dceee9--d4a449d0-5011-49b1-a8f8-55495843e1f6.lovable.app-1784197977503.png",
+				"@id": "https://jaipurrelaxspa.netlify.app/",
+				"url": "https://jaipurrelaxspa.netlify.app/",
+				"telephone": "+917414838654",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Jaipur",
+					"addressRegion": "RJ",
+					"addressCountry": "IN"
+				},
+				"openingHoursSpecification": {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday",
+						"Saturday",
+						"Sunday"
+					],
+					"opens": "00:00",
+					"closes": "23:59"
+				},
+				"priceRange": "₹₹",
+				"description": "Experience the best spa services in Jaipur at Jaipur Relax Spa. We offer authentic full body massages, signature rituals, and premium relaxation services."
+			})
 		}]
 	}),
 	shellComponent: RootShell,
@@ -188,19 +221,38 @@ function RootShell({ children }) {
 	});
 }
 function RootComponent() {
-	const { queryClient } = Route$1.useRouteContext();
+	const { queryClient } = Route$3.useRouteContext();
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(QueryClientProvider, {
 		client: queryClient,
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {})
 	});
 }
-var $$splitComponentImporter = () => import("./routes-DvJ6jFtI.mjs");
-var rootRouteChildren = { IndexRoute: createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter, "component") }).update({
-	id: "/",
-	path: "/",
-	getParentRoute: () => Route$1
-}) };
-var routeTree = Route$1._addFileChildren(rootRouteChildren)._addFileTypes();
+var $$splitComponentImporter$2 = () => import("./contact-DwTeV54P.mjs");
+var Route$2 = createFileRoute("/contact")({ component: lazyRouteComponent($$splitComponentImporter$2, "component") });
+var $$splitComponentImporter$1 = () => import("./book-BP5P2uVA.mjs");
+var Route$1 = createFileRoute("/book")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
+var $$splitComponentImporter = () => import("./routes-DlAVaT3F.mjs");
+var Route = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter, "component") });
+var ContactRoute = Route$2.update({
+	id: "/contact",
+	path: "/contact",
+	getParentRoute: () => Route$3
+});
+var BookRoute = Route$1.update({
+	id: "/book",
+	path: "/book",
+	getParentRoute: () => Route$3
+});
+var rootRouteChildren = {
+	IndexRoute: Route.update({
+		id: "/",
+		path: "/",
+		getParentRoute: () => Route$3
+	}),
+	BookRoute,
+	ContactRoute
+};
+var routeTree = Route$3._addFileChildren(rootRouteChildren)._addFileTypes();
 var getRouter = () => {
 	return createRouter({
 		routeTree,
