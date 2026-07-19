@@ -15,33 +15,33 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
-	"/assets/index-hL2WGAl1.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"543f0-VL5SBdMgKzAZbTvvuGqK9BKrILY\"",
-		"mtime": "2026-07-19T08:09:31.438Z",
-		"size": 345072,
-		"path": "../public/assets/index-hL2WGAl1.js"
-	},
-	"/assets/routes-DjQUTjZk.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2fbf-9aiqq5eiETiFaQ9HGK47XW80GP4\"",
-		"mtime": "2026-07-19T08:09:31.439Z",
-		"size": 12223,
-		"path": "../public/assets/routes-DjQUTjZk.js"
-	},
-	"/assets/styles-D2szoPyr.css": {
-		"type": "text/css; charset=utf-8",
-		"etag": "\"13243-sdbOgaJ/vDARCYSX8CqJlJojYlc\"",
-		"mtime": "2026-07-19T08:09:31.439Z",
-		"size": 78403,
-		"path": "../public/assets/styles-D2szoPyr.css"
-	},
 	"/favicon.ico": {
 		"type": "image/vnd.microsoft.icon",
 		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
-		"mtime": "2026-07-19T08:09:31.801Z",
+		"mtime": "2026-07-19T08:12:40.514Z",
 		"size": 20373,
 		"path": "../public/favicon.ico"
+	},
+	"/assets/index-CGdYAsOx.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"543f0-uC+MajSm6UJgC+0Bj4lPQeBSI6o\"",
+		"mtime": "2026-07-19T08:12:39.975Z",
+		"size": 345072,
+		"path": "../public/assets/index-CGdYAsOx.js"
+	},
+	"/assets/routes-BSd8nCcQ.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"3215-VG+2cAlNLfpveTNY7loXJ87hS1U\"",
+		"mtime": "2026-07-19T08:12:39.976Z",
+		"size": 12821,
+		"path": "../public/assets/routes-BSd8nCcQ.js"
+	},
+	"/assets/styles-PC5USP6W.css": {
+		"type": "text/css; charset=utf-8",
+		"etag": "\"13249-So+CrPR6k7MfKOYt7cxBWvyUYSQ\"",
+		"mtime": "2026-07-19T08:12:39.976Z",
+		"size": 78409,
+		"path": "../public/assets/styles-PC5USP6W.css"
 	}
 };
 //#endregion
