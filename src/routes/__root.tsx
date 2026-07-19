@@ -77,15 +77,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Jaipur Relax Spa" },
-      { name: "description", content: "A cinematic dark spa experience. Signature massages, rituals, and facials in an intimate candlelit sanctuary in Jaipur." },
+      { title: "Jaipur Relax Spa | Best Spa Services in Jaipur" },
+      { name: "description", content: "Experience the best spa services in Jaipur at Jaipur Relax Spa. We offer authentic full body massages, signature rituals, and premium relaxation services. Book your session today." },
       { name: "author", content: "Jaipur Relax Spa" },
-      { property: "og:title", content: "Jaipur Relax Spa" },
-      { property: "og:description", content: "A cinematic dark spa experience. Signature massages, rituals, and facials in an intimate candlelit sanctuary in Jaipur." },
+      { property: "og:title", content: "Jaipur Relax Spa | Best Spa Services in Jaipur" },
+      { property: "og:description", content: "Experience the best spa services in Jaipur at Jaipur Relax Spa. We offer authentic full body massages, signature rituals, and premium relaxation services. Book your session today." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Jaipur Relax Spa" },
-      { name: "twitter:description", content: "A cinematic dark spa experience. Signature massages, rituals, and facials in an intimate candlelit sanctuary in Jaipur." },
+      { name: "twitter:title", content: "Jaipur Relax Spa | Best Spa Services in Jaipur" },
+      { name: "twitter:description", content: "Experience the best spa services in Jaipur at Jaipur Relax Spa. We offer authentic full body massages, signature rituals, and premium relaxation services. Book your session today." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a236b3e0-2971-46db-b3a2-dfcc64c96683/id-preview-80dceee9--d4a449d0-5011-49b1-a8f8-55495843e1f6.lovable.app-1784197977503.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a236b3e0-2971-46db-b3a2-dfcc64c96683/id-preview-80dceee9--d4a449d0-5011-49b1-a8f8-55495843e1f6.lovable.app-1784197977503.png" },
       { name: "google-site-verification", content: "J7chktijnx4n5ic73s3rwVtmBKDvu2ZXjsRJQkFfOmo" },
@@ -102,6 +102,32 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3623171219955382",
         async: true,
         crossOrigin: "anonymous",
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "HealthAndBeautyBusiness",
+          "name": "Jaipur Relax Spa",
+          "image": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a236b3e0-2971-46db-b3a2-dfcc64c96683/id-preview-80dceee9--d4a449d0-5011-49b1-a8f8-55495843e1f6.lovable.app-1784197977503.png",
+          "@id": "https://jaipurrelaxspa.netlify.app/",
+          "url": "https://jaipurrelaxspa.netlify.app/",
+          "telephone": "+917414838654",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jaipur",
+            "addressRegion": "RJ",
+            "addressCountry": "IN"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+          },
+          "priceRange": "₹₹",
+          "description": "Experience the best spa services in Jaipur at Jaipur Relax Spa. We offer authentic full body massages, signature rituals, and premium relaxation services."
+        }),
       }
     ],
   }),

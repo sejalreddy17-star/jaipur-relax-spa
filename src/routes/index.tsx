@@ -58,14 +58,15 @@ function Landing() {
         </div>
       </header>
 
-      <section className="relative flex min-h-screen items-center justify-center">
-        <img src={heroImg} alt="Candlelit spa treatment room" width={1920} height={1200} className="absolute inset-0 h-full w-full object-cover" />
+      <main>
+        <section className="relative flex min-h-screen items-center justify-center">
+          <img src={heroImg} alt="Premium spa services in Jaipur - candlelit treatment room" width={1920} height={1200} className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center animate-fade-in">
           <p className="mb-6 text-xs uppercase tracking-[0.4em] text-primary">𝗪𝗘𝗟𝗟𝗖𝗢𝗠𝗘 • 𝗬𝗲𝘀 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝘀𝗶𝗿</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light leading-[1.05]">
-            Full body massage <span className="italic text-gold-gradient">without</span>
-            <br />any restrictions.
+            Premium Spa Services <span className="italic text-gold-gradient">in Jaipur</span>
+            <br />Full Body Massage & Relaxation.
           </h1>
           <p className="mt-8 mx-auto max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
             Booking options available: Paytm, Gpay, Phonepe. Booking confirm now (₹299) ✅
@@ -83,7 +84,7 @@ function Landing() {
           <div className="mb-16 flex items-end justify-between flex-wrap gap-6">
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Signature Treatments</p>
-              <h2 className="font-display text-4xl md:text-5xl font-light">Curated Services</h2>
+              <h2 className="font-display text-4xl md:text-5xl font-light">Jaipur Spa Services</h2>
             </div>
             <p className="max-w-sm text-muted-foreground">Each treatment is a slow, intentional passage — designed by our senior therapists.</p>
           </div>
@@ -91,7 +92,7 @@ function Landing() {
             {services.map((s) => (
               <article key={s.name} className="group relative overflow-hidden rounded-lg bg-card border border-border">
                 <div className="aspect-[4/5] overflow-hidden">
-                  <img src={s.img} alt={s.name} loading="lazy" width={800} height={1000} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                  <img src={s.img} alt={`${s.name} - Spa Services in Jaipur`} loading="lazy" width={800} height={1000} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                 </div>
                 <div className="p-8">
                   <div className="flex items-baseline justify-between mb-3">
@@ -170,7 +171,7 @@ function Landing() {
           </div>
         </div>
       </section>
-
+      </main>
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground relative flex flex-col items-center">
         <a href={whatsappLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-[#25D366] hover:bg-[#25D366]/80 text-white transition mb-6 shadow-[0_0_20px_-5px_#25D366]" aria-label="WhatsApp Contact">
           <WhatsAppIcon className="w-7 h-7" />
