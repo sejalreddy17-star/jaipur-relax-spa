@@ -15,33 +15,33 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
+	"/assets/index-hL2WGAl1.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"543f0-VL5SBdMgKzAZbTvvuGqK9BKrILY\"",
+		"mtime": "2026-07-19T08:09:31.438Z",
+		"size": 345072,
+		"path": "../public/assets/index-hL2WGAl1.js"
+	},
+	"/assets/routes-DjQUTjZk.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"2fbf-9aiqq5eiETiFaQ9HGK47XW80GP4\"",
+		"mtime": "2026-07-19T08:09:31.439Z",
+		"size": 12223,
+		"path": "../public/assets/routes-DjQUTjZk.js"
+	},
+	"/assets/styles-D2szoPyr.css": {
+		"type": "text/css; charset=utf-8",
+		"etag": "\"13243-sdbOgaJ/vDARCYSX8CqJlJojYlc\"",
+		"mtime": "2026-07-19T08:09:31.439Z",
+		"size": 78403,
+		"path": "../public/assets/styles-D2szoPyr.css"
+	},
 	"/favicon.ico": {
 		"type": "image/vnd.microsoft.icon",
 		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
-		"mtime": "2026-07-18T17:47:09.605Z",
+		"mtime": "2026-07-19T08:09:31.801Z",
 		"size": 20373,
 		"path": "../public/favicon.ico"
-	},
-	"/assets/index-Dfse0BoY.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"543f0-a5dZBDRjK4zVD9ihs/GKCq4h61A\"",
-		"mtime": "2026-07-18T17:47:09.267Z",
-		"size": 345072,
-		"path": "../public/assets/index-Dfse0BoY.js"
-	},
-	"/assets/routes-D6shPDsj.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2fd5-sjkfO0XN7jKewx9wqYpgMqamrDc\"",
-		"mtime": "2026-07-18T17:47:09.268Z",
-		"size": 12245,
-		"path": "../public/assets/routes-D6shPDsj.js"
-	},
-	"/assets/styles-0q6a_LLa.css": {
-		"type": "text/css; charset=utf-8",
-		"etag": "\"13243-95qb0mjM/eeWgtA6QfZ0p/WY3CM\"",
-		"mtime": "2026-07-18T17:47:09.268Z",
-		"size": 78403,
-		"path": "../public/assets/styles-0q6a_LLa.css"
 	}
 };
 //#endregion
@@ -79,11 +79,11 @@ var findRouteRules = /* @__PURE__ */ (() => {
 		return r;
 	};
 })();
-var _lazy_LR3KQK = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
+var _lazy_KTWKbe = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
 var findRoute = /* @__PURE__ */ (() => {
 	const data = {
 		route: "/**",
-		handler: _lazy_LR3KQK
+		handler: _lazy_KTWKbe
 	};
 	return ((_m, p) => {
 		return {

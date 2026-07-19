@@ -1,30 +1,30 @@
 import { n as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-DKwvlucI.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-DJnhK2HG.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var heroImg = "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=2000&auto=format&fit=crop";
+var heroImg = "https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=2000&auto=format&fit=crop";
 var services = [
 	{
 		name: "Incall Booking",
 		desc: "Service at our location. Remaining Amount pay at meeting place.",
 		duration: "Confirm now",
 		price: "₹299",
-		img: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=800&auto=format&fit=crop"
+		img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop"
 	},
 	{
 		name: "Outcall Booking",
 		desc: "Service at your location or Home. Remaining Amount pay at meeting place.",
 		duration: "Confirm now",
 		price: "₹599",
-		img: "https://images.unsplash.com/photo-1519824145371-296894a0daa9?q=80&w=800&auto=format&fit=crop"
+		img: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=800&auto=format&fit=crop"
 	},
 	{
 		name: "100% Refund Policy",
 		desc: "If you don't like massager girls then 💯% refund your money back 🔹",
 		duration: "Guarantee",
 		price: "Refund",
-		img: "https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=800&auto=format&fit=crop"
+		img: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=800&auto=format&fit=crop"
 	}
 ];
 var rituals = [
@@ -89,7 +89,7 @@ function Landing() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 							href: "#",
 							className: "font-display text-2xl tracking-wide text-gold-gradient",
-							children: "Shreya Spa Agency"
+							children: "Jaipur Relax Spa"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
 							className: "hidden md:flex gap-10 text-sm text-muted-foreground",
@@ -277,7 +277,7 @@ function Landing() {
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "text-muted-foreground leading-relaxed mb-8",
-							children: "As a trusted spa agency in Jaipur, Shreya Spa guarantees 100% genuine services. We pride ourselves on authentic traditional therapies, complete privacy, and verified therapists to ensure your ultimate relaxation."
+							children: "As a trusted spa agency in Jaipur, Jaipur Relax Spa guarantees 100% genuine services. We pride ourselves on authentic traditional therapies, complete privacy, and verified therapists to ensure your ultimate relaxation."
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "grid grid-cols-2 gap-6 text-sm",
@@ -415,12 +415,12 @@ function Landing() {
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "font-display text-lg text-gold-gradient mb-2",
-						children: "Shreya Spa Agency Jaipur"
+						children: "Jaipur Relax Spa"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
 						"© ",
 						(/* @__PURE__ */ new Date()).getFullYear(),
-						" Shreya Genuine Spa Agency in Jaipur · All bookings by appointment"
+						" Jaipur Relax Spa · All bookings by appointment"
 					] })
 				]
 			})
